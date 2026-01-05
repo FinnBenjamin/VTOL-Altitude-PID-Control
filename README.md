@@ -32,5 +32,7 @@ Robustness Testing: To simulate real-world conditions, Band-Limited White Noise 
 The Solution: A low-pass filter with a time constant of $\tau = 0.01s$ was implemented. This value was optimized to provide maximum noise attenuation without introducing excessive phase lag that would destabilize the system.
 
 
-How to Run: Open initialize_drone.m in MATLAB to load the vehicle mass ($m$) and PID gains into the workspace. Open drone_sim.slx in Simulink.Ensure flight_mission.mat is in the same directory. Press Run.Results & DocumentationView Full Results Report (PDF)Settling Time: ~12 seconds.Steady-State Error: $<1\%$.
+How to Run: Open initialize_drone.m in MATLAB to load the vehicle mass ($m$) and PID gains into the workspace. Open drone_sim.slx in Simulink.Ensure flight_mission.mat is in the same directory. Press Run. 
+
+Settling Time: ~12 seconds.Steady-State Error: $<1\%$.
 
